@@ -2,10 +2,19 @@
 export default {
   content: [
     "./index.html",
-    "/src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBeige: {
+          DEFAULT: '#C4B7A3', // Full color
+          '70': 'rgba(196, 183, 163, 0.7)', // 70% opacity
+        },
+        backgroundColor: 
+        '#FAF9F4',
+      }
+    },
   },
   plugins: [],
 }
