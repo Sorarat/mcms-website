@@ -10,6 +10,7 @@ export default {
         customBeige: {
           DEFAULT: '#C4B7A3', // Full color
           '70': 'rgba(196, 183, 163, 0.7)', // 70% opacity
+          '40': 'rgba(196, 183, 163, 0.4)', // 4% opacity
         },
         backgroundColor: 
         '#FAF9F4',
