@@ -7,12 +7,12 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header>
-      <div className="flex justify-between items-center px-5 py-2">
+    <header className="sm:flex sm:justify-between sm:items-center sm:px-5 sm:pb-2">
+      <div className="flex justify-between items-center px-5 py-2 sm:p-0">
         <div>
           <img src="src/images/logo.png" alt="logo" className="h-10" />
         </div>
-        <div>
+        <div className="sm:hidden">
           <button type="button" onClick={toggleMenu}>
             {isOpen ? (
               <svg
@@ -38,35 +38,38 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className={`px-3 py-3 space-y-3 ${isOpen ? "block" : "hidden"}`}>
-        {" "}
+      <div
+        className={`px-3 pb-2 sm:space-x-4 md:space-x-5 ${
+          isOpen ? "block" : "hidden"
+        } sm:flex`}
+      >
         <a
           href="#"
-          className="block text-left px-2 hover:bg-customBeige-40 rounded"
+          className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           Home
         </a>
         <a
           href="#"
-          className="block text-left px-2 hover:bg-customBeige-40 rounded"
+          className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           About
         </a>
         <a
           href="#"
-          className="block text-left px-2 hover:bg-customBeige-40 rounded"
+          className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           Events
         </a>
         <a
           href="#"
-          className="block text-left px-2 hover:bg-customBeige-40 rounded"
+          className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           Musollah
         </a>
         <a
           href="#"
-          className="block text-left px-2 hover:bg-customBeige-40 rounded-sm"
+          className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:bg-gray-800 sm:text-gray-100 hover:sm:bg-black hover:sm:rounded"
         >
           Contact Us
         </a>
