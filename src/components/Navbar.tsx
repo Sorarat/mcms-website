@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,36 +44,36 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } sm:flex`}
       >
-        <a
-          href="#"
+        <Link
+          to="/"
           className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           Home
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/about"
           className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           About
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/events"
           className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           Events
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/musollah"
           className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:rounded-xl"
         >
           Musollah
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="/contact"
           className="block text-left px-2 py-2 hover:bg-customBeige-40 rounded sm:bg-gray-800 sm:text-gray-100 hover:sm:bg-black hover:sm:rounded"
         >
           Contact Us
-        </a>
+        </Link>
       </div>
     </header>
   );
