@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Goals from "./components/Goals";
+import Hero from "./Hero";
+import Goals from "./Goals";
 
 const Home = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Goals />
-    </>
+    </div>
   );
 };
 
