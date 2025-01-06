@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
-import Hero from "./Hero";
-import Goals from "./Goals";
+import Hero from "./components/Hero";
+import Goals from "./components/Goals";
+import EventsInHome from "./components/EventsInHome";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Goals />
+      <EventsInHome />
     </div>
   );
 };

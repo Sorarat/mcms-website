@@ -1,4 +1,4 @@
-import GoalsCard from "./components/GoalsCard";
+import GoalsCard from "./GoalsCard";
 
 const Goals = () => {
   return (
