@@ -4,7 +4,14 @@ const Events = () => {
   return (
     <div>
       <Navbar />
-      <div>Contact </div>
+      <div>
+      <MemberAvatar
+              name="Member Name"
+              position="Position"
+              imageSrc="https://docs.material-tailwind.com/img/face-2.jpg"
+            />
+         </div>
+      
     </div>
   );
 };
