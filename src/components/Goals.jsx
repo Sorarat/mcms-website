@@ -2,7 +2,7 @@ import GoalsCard from "./GoalsCard";
 
 const Goals = () => {
   return (
-    <div className="bg-customBeige-70 mt-20 w-full">
+    <div className="bg-customBeige-70 mt-20 w-full p-2 md:p-12">
       <div>
         <h2 className="text-3xl font-semibold p-5">Our Goals</h2>
       </div>

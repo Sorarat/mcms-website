@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <Navbar />
       <div>
-        <div className="flex flex-col mb-10 md:flex-row md:items-start">
+        <div className="flex flex-col mb-10 md:flex-row p-12 md:items-start">
           <div className="flex-1">
             <h2 className="text-3xl font-semibold p-5">WHAT WE DO</h2>
             <p className="text-left font-light leading-2 md:leading-7">Malay Cultural and Muslim Society is a club which aims at cultivating a deep passion and appreciation for the Malay Culture & Islamic faith. 
@@ -21,7 +21,7 @@ const About = () => {
           />
         </div>
 
-        <div className="bg-customBeige-70 w-full p-5 mb-10">
+        <div className="bg-customBeige-70 w-full p-12 mb-10">
           <h2 className="text-3xl font-semibold p-5"> OUR GOALS</h2>
 
           <div className="flex flex-col items-center">
@@ -40,7 +40,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="bg-lightYellow w-full p-4 ">
+        <div className="bg-lightYellow w-full p-12 ">
           <h2 className="text-3xl font-semibold mb-10 mt-8"> MEET THE TEAM</h2>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             <MemberAvatar

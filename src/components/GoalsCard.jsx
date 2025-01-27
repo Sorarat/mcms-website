@@ -2,7 +2,7 @@ import { IoPeople } from "react-icons/io5";
 
 const GoalsCard = () => {
   return (
-    <div className="bg-gray-50 rounded-lg h-auto w-1/2 flex flex-col p-3 mb-4">
+    <div className="bg-gray-50 rounded-lg h-auto w-3/4 flex flex-col p-3 mb-4">
       <div className="flex justify-center">
         <IoPeople size={40} />
       </div>
