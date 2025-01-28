@@ -4,7 +4,7 @@ const EventsInHome = () => {
   return (
     <div>
       <div>
-        <h2 className="text-3xl font-semibold p-5">Events</h2>
+        <h2 className="text-3xl font-semibold p-5 mt-10 md:p-9">Events</h2>
       </div>
 
       <div>

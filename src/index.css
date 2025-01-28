@@ -5,3 +5,7 @@
 body {
   @apply bg-backgroundColor;
 }
+
+.image-gallery-description {
+  display: none !important;
+}

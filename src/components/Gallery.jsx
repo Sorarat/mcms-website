@@ -1,25 +1,61 @@
+import React, { useState } from "react";
 import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css"; // Make sure to import the styles
-
+import "react-image-gallery/styles/css/image-gallery.css";
+import GalleryDescription from "./GalleryDescription";
+import img3 from "../images/img3.JPG";
 
 const Gallery = () => {
-
   const images = [
     {
-      original: "https://picsum.photos/id/1018/1000/600/",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
+      original: img3,
+      thumbnail: img3,
+      title: "Orientation",
+      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
     },
     {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
+      original: img3,
+      thumbnail: img3,
+      title: "Raya",
+      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
     },
     {
-      original: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
+      original: img3,
+      thumbnail: img3,
+      title: "Iftarawih",
+      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
+    },
+    {
+      original: img3,
+      thumbnail: img3,
+      title: "Sports Day",
+      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
     },
   ];
-  
-  return <ImageGallery items={images} showPlayButton={false}/>;
+
+  // State to track the currently selected image title and description
+  const [currentTitle, setCurrentTitle] = useState(images[0].title);
+  const [currentDescription, setCurrentDescription] = useState(images[0].description);
+
+  const handleSlideChange = (index) => {
+    setCurrentTitle(images[index].title);
+    setCurrentDescription(images[index].description);
+  };
+
+  return (
+    <div className="container mx-auto p-4">
+      {/* Image Gallery */}
+      <ImageGallery
+        items={images}
+        showPlayButton={false}
+        showThumbnails={true}
+        showDes
+        onSlide={handleSlideChange} // Update description on slide change
+      />
+
+      {/* Independent Description */}
+      <GalleryDescription title={currentTitle} description={currentDescription} />
+    </div>
+  );
 };
 
 export default Gallery;
