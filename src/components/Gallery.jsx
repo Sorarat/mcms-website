@@ -44,16 +44,21 @@ const Gallery = () => {
   return (
     <div className="container mx-auto p-4">
       {/* Image Gallery */}
-      <ImageGallery
-        items={images}
-        showPlayButton={false}
-        showThumbnails={true}
-        showDes
-        onSlide={handleSlideChange} // Update description on slide change
-      />
-
-      {/* Independent Description */}
-      <GalleryDescription title={currentTitle} description={currentDescription} />
+      <div className="flex flex-col md:flex-row md:gap-8">
+        <div className="flex-1">
+          <ImageGallery
+            items={images}
+            showPlayButton={false}
+            showThumbnails={true}
+            showDes
+            onSlide={handleSlideChange} // Update description on slide change
+          />
+        </div>
+         {/* Independent Description */}
+        <div className="mt-4 md:mt-0 md:flex-1">
+          <GalleryDescription title={currentTitle} description={currentDescription} />
+        </div>
+      </div>
     </div>
   );
 };
