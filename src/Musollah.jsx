@@ -31,6 +31,11 @@ const Musollah = () => {
               </div>
             </div>
           </div>
+          <div className="bg-customBeige-70 p-10 mt-5 flex flex-col items-center">
+            <video className="rounded-lg w-72 h-auto" controls width={800}> 
+              <source src="/videos/musollah_video.MP4" type="video/mp4"/>
+            </video>
+          </div>
         </div>
     </div>
   );
