@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
-
+import { IoMdMail } from "react-icons/io";
+import { FaTelegram, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 const Contact = () => {
   return (
     <div>
@@ -19,7 +20,34 @@ const Contact = () => {
           src="src/images/16thexco.jpeg"
           alt="16thexco"
         />
-        
+      </div>
+
+      <div className="flex justify-center  mt-10">
+        <div className="bg-gray-50 p-10 flex flex-col items-center w-9/10 md:mt-0 md:w-1/2 rounded-sm shadow-sm border-solid border-gray-200 border">
+          <div className="flex flex-col items-center">
+            <h5 className="text-xl md:text-2xl font-medium mb-5">For inquiries and collaborations:</h5>
+            <IoMdMail size={60} className="mb-5"/>
+            <p className="text-lg">sim mcms email</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col mt-14 items-center">
+        <h6 className="text-lg md:text-xl">Stay updated through</h6>
+        <div className="flex mt-5 gap-x-2 md:gap-x-5">
+          <a href="https://t.me/simmcms" target="_blank" rel="noopener noreferrer" className="group">
+            <FaTelegram size={30} color="#24A1DE" className="transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+          </a>
+          <a href="https://www.instagram.com/simmcms/" target="_blank" rel="noopener noreferrer" className="group"> 
+            <FaInstagram size={30} color="black" className="transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer" className="group">
+            <FaTiktok size={30} color="#black" className="transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+          </a>
+          <a href="https://www.linkedin.com/company/simmcms/" target="_blank" className="group">
+            <FaLinkedin size={30} color="#0A66C2" className="transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+          </a>
+        </div>
       </div>
     </div>
   );

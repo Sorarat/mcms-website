@@ -4,7 +4,7 @@ const Events = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col bg-customBeige-40 p-8 md:items-start md:p-16">
+      <div className="flex flex-col bg-customBeige-40 p-4 mt-5 md:items-start md:p-16">
         <h2 className="text-3xl font-semibold m-3">EVENTS</h2>
         <p className="text-left font-light leading-2 m-3 md:leading-7">
         MCMS hosts a variety of events that celebrate both Malay culture and Islamic traditions, 
@@ -15,7 +15,7 @@ const Events = () => {
         </p>
       </div>
 
-      <div className="bg-lightYellow p-8 md:p-16">
+      <div className="bg-lightYellow p-6 md:p-16">
         <div>
           <h4 className="text-2xl font-medium m-4 md:text-left">Orientation</h4>
           <div className="flex flex-col md:flex-row ">

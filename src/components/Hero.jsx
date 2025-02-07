@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="sm:flex items-center gap-8 px-4">
       <div className="sm:w-1/2">
-        <h1 className="text-4xl mt-10 mb-10 font-semibold text-left leading-tight">
+        <h1 className="text-4xl mt-10 mb-10 font-semibold text-left leading-tight md:text-5xl lg:text-6xl">
           Malay Cultural & Muslim Society (MCMS)
         </h1>
 
