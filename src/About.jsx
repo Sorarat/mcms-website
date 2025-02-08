@@ -8,8 +8,8 @@ const About = () => {
       <div>
         <div className="flex flex-col mb-10 md:flex-row p-3 md:p-12 md:items-start">
           <div className="flex-1">
-            <h2 className="text-3xl font-semibold p-5">WHAT WE DO</h2>
-            <p className="text-left font-light leading-2 md:leading-7">Malay Cultural and Muslim Society is a club which aims at cultivating a deep passion and appreciation for the Malay Culture & Islamic faith. 
+            <h2 className="text-3xl font-semibold p-2">WHAT WE DO</h2>
+            <p className="text-left font-light leading-2 md:leading-7 md:p-5">Malay Cultural and Muslim Society is a club which aims at cultivating a deep passion and appreciation for the Malay Culture & Islamic faith. 
               The club not only initiates activities and workshops that promote seeking beneficial knowledge pertaining to the Malay culture and Islam, but also functions
               as a support system for all Muslim students in SIM.
             </p>
