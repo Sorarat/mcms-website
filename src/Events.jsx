@@ -22,7 +22,7 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/orientation.jpg"
+              src="/images/orientation.JPG"
               alt="orientation"
             />
             <div className="md:ml-4"> 
@@ -41,7 +41,7 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/raya.jpg"
+              src="/images/raya.jpg"
               alt="raya"
             />
             <div className="md:ml-4"> 
@@ -60,7 +60,7 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/iftarawih.jpg"
+              src="/images/iftarawih.JPG"
               alt="iftarawih"
             />
             <div className="md:ml-4"> 
@@ -79,7 +79,7 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/sportsDay.jpg"
+              src="/images/sportsDay.JPG"
               alt="sportsDay"
             />
             <div className="md:ml-4"> 

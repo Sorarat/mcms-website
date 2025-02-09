@@ -19,14 +19,14 @@ const Musollah = () => {
               <div>
                 <img
                   className="h-auto max-w-full rounded-md"
-                  src="src/images/musollah1.jpg"
+                  src="/images/musollah1.jpg"
                   alt="image 1"
                 ></img>
               </div>
               <div>
                 <img
                   className="h-auto max-w-full rounded-md"
-                  src="src/images/musollah2.jpg"
+                  src="/images/musollah2.jpg"
                   alt="image 2"
                 ></img>
               </div>

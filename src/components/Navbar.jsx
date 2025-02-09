@@ -11,8 +11,7 @@ const Navbar = () => {
     <header className="sm:flex sm:justify-between sm:items-center sm:px-5 sm:pb-2">
       <div className="flex justify-between items-center px-5 py-2 sm:p-0">
         <div>
-          <Link to="/"><img src="src/images/logo.png" alt="logo" className="h-10" /></Link>
-          {/* <img src="src/images/logo.png" alt="logo" className="h-10" /> */}
+          <Link to="/"><img src="/images/logo.png" alt="logo" className="h-10" /></Link>
         </div>
         <div className="sm:hidden">
           <button type="button" onClick={toggleMenu}>

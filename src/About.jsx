@@ -17,7 +17,7 @@ const About = () => {
           </div>
          <img
             className="h-auto max-w-full rounded-lg m-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-h-[600px] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-            src="src/images/orientation.jpg"
+            src="/images/orientation.JPG"
             alt="image 3"
           />
         </div>
@@ -50,72 +50,72 @@ const About = () => {
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
               <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
             <MemberAvatar
                 name="Member Name"
                 position="Position"
-                imageSrc="src/images/harry.jpg"
+                imageSrc="/images/harry.jpg"
               />
           
           </div>

@@ -1,3 +1,4 @@
+
 const Hero = () => {
   return (
     <div className="sm:flex items-center gap-8 px-4">
@@ -20,21 +21,21 @@ const Hero = () => {
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/img1.jpg"
+              src="/images/img1.JPG"
               alt="image 1"
             />
           </div>
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/img2.jpg"
+              src="/images/img2.JPG"
               alt="image 2"
             />
           </div>
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/orientation.jpg"
+              src="/images/orientation.JPG"
               alt="image 3"
             />
           </div>
@@ -43,21 +44,21 @@ const Hero = () => {
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/img4.jpg"
+              src="/images/img4.jpg"
               alt="image 4"
             />
           </div>
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/sportsDay2.jpeg"
+              src="/images/sportsDay2.jpeg"
               alt="image 5"
             />
           </div>
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/img6.jpg"
+              src="/images/img6.JPG"
               alt="image 6"
             />
           </div>
