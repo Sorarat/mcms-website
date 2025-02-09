@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/img3.jpg"
+              src="src/images/orientation.jpg"
               alt="image 3"
             />
           </div>

@@ -2,33 +2,36 @@ import React, { useState } from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import GalleryDescription from "./GalleryDescription";
-import img3 from "../images/img3.JPG";
+import orientation from "../images/orientation.JPG";
+import raya from "../images/raya.jpg";
+import iftarawih from "../images/iftarawih.JPG";
+import sports from "../images/sportsDay.JPG";
 
 const Gallery = () => {
   const images = [
     {
-      original: img3,
-      thumbnail: img3,
+      original: orientation,
+      thumbnail: orientation,
       title: "Orientation",
       description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
     },
     {
-      original: img3,
-      thumbnail: img3,
+      original: raya,
+      thumbnail: raya,
       title: "Raya",
-      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
+      description: "The MCMS Raya event brought together members for a celebration of the Malay culture with traditional performances and festive activities."
     },
     {
-      original: img3,
-      thumbnail: img3,
+      original: iftarawih,
+      thumbnail: iftarawih,
       title: "Iftarawih",
-      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
+      description: "The Iftarawih gathering was a time for our members to come together for communal prayers and a shared meal, fostering a spirit of unity and reflection."
     },
     {
-      original: img3,
-      thumbnail: img3,
+      original: sports,
+      thumbnail: sports,
       title: "Sports Day",
-      description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
+      description: "MCMS Sports Day provided a fun and competitive atmosphere, where members participated in various sports activities to build teamwork and friendship."
     },
   ];
 
@@ -50,7 +53,6 @@ const Gallery = () => {
             items={images}
             showPlayButton={false}
             showThumbnails={true}
-            showDes
             onSlide={handleSlideChange} // Update description on slide change
           />
         </div>

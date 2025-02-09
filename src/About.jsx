@@ -17,7 +17,7 @@ const About = () => {
           </div>
          <img
             className="h-auto max-w-full rounded-lg m-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-h-[600px] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-            src="src/images/img3.jpg"
+            src="src/images/orientation.jpg"
             alt="image 3"
           />
         </div>
@@ -27,17 +27,20 @@ const About = () => {
 
           <div className="flex flex-col items-center">
             <h1 className="text-7xl font-bold text-gray-100 mb-2">1</h1>
-            <p className="text-left font-light mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Sed efficitur, lectus et facilisis placerat.</p>
+            <h5 className="text-xl text-left font-semibold mb-5">Foster Cultural Awareness and Appreciation.</h5>
+            <p className="text-left font-light sm:text-center leading-7 mb-10">To promote understanding and appreciation of Malay culture and Islamic traditions among students of all backgrounds through cultural events, workshops, and educational programs.</p>
           </div>
           
           <div className="flex flex-col items-center">
             <h1 className="text-7xl font-bold text-gray-100 mb-2">2</h1>
-            <p className="text-left font-light mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Sed efficitur, lectus et facilisis placerat.</p>
+            <h5 className="text-xl text-left font-semibold mb-5">Build a Supportive Malay Muslim Community on Campus</h5>
+            <p className="text-left font-light sm:text-center leading-7 mb-10">TTo create a supportive and inclusive space for Muslim students, particularly those of Malay heritage, where they can connect, share experiences, and engage in spiritual and social activities.</p>
           </div>
 
           <div className="flex flex-col items-center">
             <h1 className="text-7xl font-bold text-gray-100 mb-2">3</h1>
-            <p className="text-left font-light mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br></br>Sed efficitur, lectus et facilisis placerat.</p>
+            <h5 className="text-xl text-left font-semibold mb-5">Empower Leadership and Personal Growth</h5>
+            <p className="text-left font-light sm:text-center leading-7">To nurture leadership skills and personal development within the Malay Muslim community by providing opportunities for members to take on active roles and contribute to club activities.</p>
           </div>
         </div>
 

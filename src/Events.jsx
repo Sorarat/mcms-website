@@ -22,14 +22,15 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/img3.jpg"
-              alt="image 3"
+              src="src/images/orientation.jpg"
+              alt="orientation"
             />
             <div className="md:ml-4"> 
-              <p className="text-left font-light mt-3 leading-2 md:leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin eu placerat ex, a dignissim orci. In imperdiet nibh eu luctus viverra.
-                Sed elementum quam consectetur neque congue suscipit. Cras ultricies dictum lobortis.
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+                The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values.
+                Attendees connected with fellow members, learned about the club’s activities, and gained insight into the society's mission. 
+                The event encouraged participation and set the stage for an exciting year ahead, 
+                with everyone excited to contribute to the community and build lasting friendships.
               </p>
             </div>
           </div>
@@ -40,14 +41,15 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/img3.jpg"
-              alt="image 3"
+              src="src/images/raya.jpg"
+              alt="raya"
             />
             <div className="md:ml-4"> 
-              <p className="text-left font-light mt-3 leading-2 md:leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin eu placerat ex, a dignissim orci. In imperdiet nibh eu luctus viverra.
-                Sed elementum quam consectetur neque congue suscipit. Cras ultricies dictum lobortis.
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+                The MCMS Raya event brought together members for a celebration of the Malay culture with traditional performances and festive activities. 
+                This event included cultural dances, musical performances, and a feast that showcased delicious traditional Malay dishes. 
+                It was a joyous occasion where members came together to celebrate the spirit of unity, share memories, and strengthen bonds with one another. 
+                The Raya celebration provided an opportunity for cultural exchange, fostering a deeper appreciation for Malay traditions and Islamic values."
               </p>
             </div>
           </div>
@@ -58,14 +60,15 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/img3.jpg"
-              alt="image 3"
+              src="src/images/iftarawih.jpg"
+              alt="iftarawih"
             />
             <div className="md:ml-4"> 
-              <p className="text-left font-light mt-3 leading-2 md:leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin eu placerat ex, a dignissim orci. In imperdiet nibh eu luctus viverra.
-                Sed elementum quam consectetur neque congue suscipit. Cras ultricies dictum lobortis.
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+              The Iftarawih gathering was a time for our members to come together for communal prayers and a shared meal, fostering a spirit of unity and reflection. 
+              The event began with a thoughtful reflection on the significance of Ramadan, followed by the evening prayers and a delicious Iftar meal. 
+              Members of all ages came together to celebrate the blessings of the holy month, share their experiences, and offer gratitude. 
+              It was an opportunity to strengthen the community and deepen the collective sense of spirituality and togetherness.
               </p>
             </div>
           </div>
@@ -76,14 +79,15 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="src/images/img3.jpg"
-              alt="image 3"
+              src="src/images/sportsDay.jpg"
+              alt="sportsDay"
             />
             <div className="md:ml-4"> 
-              <p className="text-left font-light mt-3 leading-2 md:leading-7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Proin eu placerat ex, a dignissim orci. In imperdiet nibh eu luctus viverra.
-                Sed elementum quam consectetur neque congue suscipit. Cras ultricies dictum lobortis.
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+                MCMS Sports Day provided a fun and competitive atmosphere, where members participated in various sports activities to build teamwork and friendship. 
+                The day featured a variety of events, from friendly football matches to exciting relay races, all designed to encourage participation, teamwork, and physical fitness.
+                Members of all skill levels were able to join in, fostering a spirit of camaraderie and healthy competition. 
+                Sports Day was not just about winning but about building lasting connections, having fun, and encouraging one another to push their limits.
               </p>
             </div>
           </div>

@@ -12,10 +12,8 @@ const Contact = () => {
         <div className="flex-1">
           <h2 className="text-3xl font-semibold m-3 text-left">CONTACT</h2>
           <p className="text-left font-light leading-2 m-3 md:leading-7 md:mt-7 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu placerat ex, a dignissim orci. 
-          In imperdiet nibh eu luctus viverra. Sed elementum quam consectetur neque congue suscipit. Cras ultricies dictum lobortis. 
-          Vestibulum vel tristique mi, a efficitur elit. Proin finibus ex tellus, quis vehicula risus gravida id. 
-          Vivamus commodo lacus id odio egestas molestie a nec lectus.
+          If you have any questions, suggestions, or need assistance, feel free to reach out to us. 
+          Whether you're looking for more information or just want to connect, we're here to help.
           </p>
         </div>
         <img

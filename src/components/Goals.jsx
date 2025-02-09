@@ -1,4 +1,6 @@
 import GoalsCard from "./GoalsCard";
+import { Link } from "react-router-dom";
+
 
 const Goals = () => {
   return (
@@ -8,9 +10,9 @@ const Goals = () => {
       </div>
       <div className="flex flex-col items-center sm:flex-row sm:space-x-3 sm:m-2">
         {/* 3 goal cards */}
-        <GoalsCard />
-        <GoalsCard />
-        <GoalsCard />
+        <GoalsCard text="Foster Cultural Awareness and Appreciation" />
+        <GoalsCard text="Build a Supportive Malay Muslim Community on Campus"/>
+        <GoalsCard text="Empower Leadership and Personal Growth"/>
       </div>
     </div>
   );
