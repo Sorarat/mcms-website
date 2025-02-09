@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="src/images/img5.jpeg"
+              src="src/images/sportsDay2.jpeg"
               alt="image 5"
             />
           </div>
