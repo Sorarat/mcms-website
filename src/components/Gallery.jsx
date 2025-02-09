@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import GalleryDescription from "./GalleryDescription";
-import orientation from "../images/orientation.JPG";
-import raya from "../images/raya.jpg";
-import iftarawih from "../images/iftarawih.JPG";
-import sports from "../images/sportsDay.JPG";
+import orientation from "/images/orientation.JPG";
+import raya from "/images/raya.jpg";
+import iftarawih from "/images/iftarawih.JPG";
+import sports from "/images/sportsDay.JPG";
 
 const Gallery = () => {
   const images = [

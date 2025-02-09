@@ -18,7 +18,7 @@ const Contact = () => {
         </div>
         <img
           className="h-auto max-w-full rounded-lg mt-4 md:mt-20 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-h-[600px] lg:max-w-[45%] mx-auto md:m-4"
-          src="src/images/16thexco.jpeg"
+          src="/images/16thexco.jpeg"
           alt="16thexco"
         />
       </div>
