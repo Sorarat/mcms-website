@@ -1,6 +1,9 @@
 import Navbar from "./components/Navbar";
 import { IoMdMail } from "react-icons/io";
 import { FaTelegram, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
+import Footer from "./components/Footer";
+
+
 const Contact = () => {
   return (
     <div>
@@ -32,7 +35,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-14 items-center">
+      <div className="flex flex-col mt-14 items-center mb-40">
         <h6 className="text-lg md:text-xl">Stay updated through</h6>
         <div className="flex mt-5 gap-x-2 md:gap-x-5">
           <a href="https://t.me/simmcms" target="_blank" rel="noopener noreferrer" className="group">
@@ -49,6 +52,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const Events = () => {
   return (
@@ -94,6 +95,7 @@ const Events = () => {
 
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

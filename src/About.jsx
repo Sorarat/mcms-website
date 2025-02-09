@@ -1,5 +1,6 @@
 import MemberAvatar from "./components/Avatar";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const About = () => {
   return (
@@ -117,6 +118,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
