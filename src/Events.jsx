@@ -17,7 +17,7 @@ const Events = () => {
       </div>
 
       <div className="bg-lightYellow p-6 md:p-16">
-        <div>
+        <div className="mb-14">
           <h4 className="text-2xl font-medium m-4 md:text-left">Orientation</h4>
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
@@ -35,7 +35,7 @@ const Events = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-14">
           <h4 className="text-2xl font-medium m-4 md:text-left">Raya</h4>
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
@@ -53,7 +53,7 @@ const Events = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-14">
           <h4 className="text-2xl font-medium m-4 md:text-left">Iftarawih</h4>
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
@@ -71,7 +71,7 @@ const Events = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-14">
           <h4 className="text-2xl font-medium m-4 md:text-left">Sports Day</h4>
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img

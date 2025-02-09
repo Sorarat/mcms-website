@@ -5,7 +5,7 @@ const Musollah = () => {
   return (
     <div>
       <Navbar />
-        <div className="p-5">
+        <div>
           <h2 className="text-3xl font-semibold m-4">MUSOLLAH</h2>
           <div className="md:flex md:items-start md:p-3 ">
             <div className="text-left font-light mb-10 mt-5 md:w-1/2 md:leading-8 ">
@@ -32,7 +32,7 @@ const Musollah = () => {
               </div>
             </div>
           </div>
-          <div className="bg-customBeige-70 p-11 h-[700px] mt-5 flex flex-col items-center">
+          <div className="bg-customBeige-70 p-16 sm:h-[750px] mt-5 flex flex-col items-center justify-center">
             <video className="rounded-lg w-72 h-auto" controls width={800}> 
               <source src="/videos/musollah_video.MP4" type="video/mp4"/>
             </video>

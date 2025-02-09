@@ -22,7 +22,7 @@ const About = () => {
           />
         </div>
 
-        <div className="bg-customBeige-70 w-full p-12 mb-10">
+        <div className="bg-customBeige-70 w-full p-12">
           <h2 className="text-3xl font-semibold p-5"> OUR GOALS</h2>
 
           <div className="flex flex-col items-center">
@@ -41,8 +41,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="bg-lightYellow w-full p-12 ">
-          <h2 className="text-3xl font-semibold mb-10 mt-8"> MEET THE TEAM</h2>
+        <div className="bg-lightYellow w-full p-8 py-20">
+          <h2 className="text-3xl font-semibold mb-16"> MEET THE TEAM</h2>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             <MemberAvatar
                 name="Member Name"
