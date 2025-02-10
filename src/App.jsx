@@ -5,10 +5,12 @@ import About from "./About";
 import Events from "./Events";
 import Musollah from "./Musollah";
 import Contact from "./Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />} />
