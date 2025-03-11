@@ -22,7 +22,7 @@ const Events = () => {
           <div className="flex flex-col md:flex-row md:items-start"> 
             <img
               className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
-              src="/images/orientation.JPG"
+              src="/images/orientation.png"
               alt="orientation"
             />
             <div className="md:ml-4"> 
@@ -31,6 +31,61 @@ const Events = () => {
                 Attendees connected with fellow members, learned about the club’s activities, and gained insight into the society's mission. 
                 The event encouraged participation and set the stage for an exciting year ahead, 
                 with everyone excited to contribute to the community and build lasting friendships.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-14">
+          <h4 className="text-2xl font-medium m-4 md:text-left">Qiyam Path to Purity</h4>
+          <div className="flex flex-col md:flex-row md:items-start"> 
+            <img
+              className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
+              src="/images/qiyam.png"
+              alt="qiyam"
+            />
+            <div className="md:ml-4"> 
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+              This special gathering organized by our club provided an opportunity for members to come together in worship and reflection. 
+              Participants engage in the peaceful practice of Tahajjud, offering prayers and seeking spiritual growth.
+               The event encourages a deeper connection with Allah, fostering a sense of community and unity among all who attend. 
+               It’s a time for personal reflection, renewal of faith, and strengthening bonds with fellow members, creating a meaningful and uplifting experience for everyone involved.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-14">
+          <h4 className="text-2xl font-medium m-4 md:text-left">Leadership Day</h4>
+          <div className="flex flex-col md:flex-row md:items-start"> 
+            <img
+              className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
+              src="/images/leadershipDay.png"
+              alt="leadershipDay"
+            />
+            <div className="md:ml-4"> 
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+              Our Leadership Day for the EXCO of the Malay Cultural and Muslim Society was a meaningful blend of growth and camaraderie. 
+              The day began with an insightful leadership seminar led by a professional speaker, focusing on effective leadership strategies and team dynamics. 
+              Following the session, the team bonded through engaging activities like bowling, fostering stronger connections and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-14">
+          <h4 className="text-2xl font-medium m-4 md:text-left">Subcommitee Welcome Tea</h4>
+          <div className="flex flex-col md:flex-row md:items-start"> 
+            <img
+              className="h-auto max-w-full rounded-lg mt-4 sm:max-h-[400px] sm:max-w-[90%] md:max-h-[600px] md:max-w-[55%] lg:max-w-[45%] mx-auto md:m-4 md:order-first"
+              src="/images/welcomeTea.png"
+              alt="subcommWelcomeTea"
+            />
+            <div className="md:ml-4"> 
+              <p className="text-left font-light mt-3 leading-2 md:leading-7 p-2">
+              The MCMS Subcommittee Welcome Tea warmly welcomed new subcommittee members with an engaging session hosted by the EXCO.
+               The event introduced members to the society’s mission, upcoming initiatives, and the important roles they’ll play. 
+               Beyond the introductions, fun bonding activities created a relaxed atmosphere, allowing everyone to connect and build relationships.
               </p>
             </div>
           </div>

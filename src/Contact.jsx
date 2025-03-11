@@ -28,7 +28,7 @@ const Contact = () => {
           <div className="flex flex-col items-center">
             <h5 className="text-xl md:text-2xl font-medium mb-5">For inquiries and collaborations:</h5>
             <IoMdMail size={60} className="mb-5"/>
-            <p className="text-lg">sim mcms email</p>
+            <p className="text-lg">mcms@mymail.sim.edu.sg</p>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/simmcms/" target="_blank" rel="noopener noreferrer" className="group"> 
             <FaInstagram size={30} color="black" className="transition-transform duration-300 ease-in-out group-hover:scale-110"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer" className="group">
+          <a href="https://www.tiktok.com/@sim_mcms?is_from_webapp=1&" target="_blank" rel="noopener noreferrer" className="group">
             <FaTiktok size={30} color="#black" className="transition-transform duration-300 ease-in-out group-hover:scale-110"/>
           </a>
           <a href="https://www.linkedin.com/company/simmcms/" target="_blank" className="group">

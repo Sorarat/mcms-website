@@ -15,27 +15,41 @@ const Musollah = () => {
                   Don’t forget to check the bulletin board for the latest MCMS events and updates!
               </p>
             </div>
-            <div className="flex flex-col items-center mx-auto gap-y-2 w-36 md:flex-row md:mr-8 md:w-1/2 md:gap-x-3 md:order-first">
+            <div className="flex flex-col items-center mx-auto mb-10 gap-y-2 w-36 md:flex-row md:mr-8 md:w-1/2 md:gap-x-3 md:order-first">
               <div>
                 <img
-                  className="h-auto max-w-full rounded-md"
-                  src="/images/musollah1.jpg"
-                  alt="image 1"
-                ></img>
-              </div>
-              <div>
-                <img
-                  className="h-auto max-w-full rounded-md"
+                  className="h-auto rounded-md w-72"
                   src="/images/musollah2.jpg"
                   alt="image 2"
                 ></img>
               </div>
+              <div className="h-auto rounded-md w-40 md:w-72">
+                <video className="rounded-lg h-auto" controls width={800}> 
+                  <source src="/videos/musollah_video.MP4" type="video/mp4"/>
+                </video>
+              </div>
             </div>
           </div>
-          <div className="bg-customBeige-70 p-16 sm:h-[750px] mt-5 flex flex-col items-center justify-center">
-            <video className="rounded-lg w-72 h-auto" controls width={800}> 
-              <source src="/videos/musollah_video.MP4" type="video/mp4"/>
-            </video>
+
+          
+          <div className="flex flex-col md:flex-row mb-20 md:items-center md:gap-x-10">
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold mb-6">Ilm & Ibadah Initiative</h3>
+              <p className="font-light mb-5 text-start">
+                This initiative provides an exclusive venue within SIM for Muslim students to study, connect, and pray — all in one space. 
+                It offers a comfortable environment where students can focus on their academic work, build meaningful relationships with fellow members, 
+                and have a dedicated area for their daily prayers. This initiative aims to create a sense of community and support, 
+                ensuring that both academic and spiritual needs are met in a welcoming and inclusive setting.
+              </p>
+            </div>
+
+            <div className="flex-1 flex justify-center">
+              <img
+                className="rounded-md w-72  h-auto"
+                src="/images/ibadah.png"
+                alt="ibadah"
+              />
+            </div>
           </div>
         </div>
         <Footer/>
