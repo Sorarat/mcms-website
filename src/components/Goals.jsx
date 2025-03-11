@@ -10,9 +10,9 @@ const Goals = () => {
       </div>
       <div className="flex flex-col items-center sm:flex-row sm:space-x-3 sm:m-2">
         {/* 3 goal cards */}
-        <GoalsCard text="Foster Cultural Awareness and Appreciation" />
-        <GoalsCard text="Build a Supportive Malay Muslim Community on Campus"/>
-        <GoalsCard text="Empower Leadership and Personal Growth"/>
+        <GoalsCard heading="Legacy" text="To overall carry on the legacies of the past EXCO while improving & creating our very own legacy as we move forth together" />
+        <GoalsCard heading="Community" text="Fostering a tighter knit community"/>
+        <GoalsCard heading="Development" text="To develop ourselves and move forward together as we strive to be better Muslims"/>
       </div>
     </div>
   );

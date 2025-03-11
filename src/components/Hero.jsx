@@ -7,11 +7,8 @@ const Hero = () => {
           Malay Cultural & Muslim Society (MCMS)
         </h1>
 
-        <p className="text-left font-light mb-10">
-          At MCMS, we celebrate the richness of Malay culture and the values of
-          Islam through engaging activities, workshops, and events. Our mission
-          is to promote beneficial knowledge and create a supportive community
-          for all Muslim students at SIM.
+        <p className="text-left font-light mb-10 text-lg ">
+          Our goal is to bring students in SIM together through events and activities that connect us through our shared faith and culture
         </p>
       </div>
 
@@ -29,14 +26,14 @@ const Hero = () => {
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
               src="/images/img2.JPG"
-              alt="image 2"
+              alt="image 3"
             />
           </div>
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="/images/orientation.JPG"
-              alt="image 3"
+              src="/images/qiyam2.png"
+              alt="image 2"
             />
           </div>
         </div>
@@ -58,7 +55,7 @@ const Hero = () => {
           <div className="group">
             <img
               className="h-auto max-w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
-              src="/images/img6.JPG"
+              src="/images/orientation.png"
               alt="image 6"
             />
           </div>

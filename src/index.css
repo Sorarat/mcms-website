@@ -4,6 +4,9 @@
 
 body {
   @apply bg-backgroundColor;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .image-gallery-description {

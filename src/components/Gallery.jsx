@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import GalleryDescription from "./GalleryDescription";
-import orientation from "/images/orientation.JPG";
+import orientation from "/images/orientation.png";
 import raya from "/images/raya.jpg";
 import iftarawih from "/images/iftarawih.JPG";
 import sports from "/images/sportsDay.JPG";
+import leadership from "/images/leadershipDay.png";
+import qiyam from "/images/qiyam.png";
+import welcomeTea from "/images/welcomeTea.png";
 
 const Gallery = () => {
   const images = [
@@ -14,6 +17,24 @@ const Gallery = () => {
       thumbnail: orientation,
       title: "Orientation",
       description: "The MCMS Orientation Event welcomed new members with engaging sessions on Malay culture and Islamic values. Attendees connected with fellow members and learned about the club’s activities, setting the stage for an exciting year ahead."
+    },
+    {
+      original: qiyam,
+      thumbnail: qiyam,
+      title: "Qiyam Path to Purity",
+      description: "This event provides an opportunity for members to engage in night prayers, seek spiritual growth, and strengthen their connection with Allah.."
+    },
+    {
+      original: leadership,
+      thumbnail: leadership,
+      title: "Leadership Day",
+      description: "Leadership Day is a special event that combines insightful leadership seminars and bonding activities to inspire and unite the exco members."
+    },
+    {
+      original: welcomeTea,
+      thumbnail: welcomeTea,
+      title: "Subcommitee Welcome Tea",
+      description: "The Subcommittee Welcome Tea is a warm gathering where the exco welcomes new subcommittee members, fostering connections and teamwork through fun activities."
     },
     {
       original: raya,
